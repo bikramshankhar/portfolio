@@ -31,14 +31,8 @@ body {
     width: 300px;
 }
 
-.mainsection {
-    background-color: white;
-    padding-top: 30px;
-    margin-top: 30px;
-    position: relative;
-}
 
-.mainsection h2 {
+.container h2 {
     color: #2a7886;
     text-transform: uppercase;
     font-weight: 700;
@@ -102,6 +96,9 @@ background-image: url(portfolioimg4);
     height: 100%;
     padding: 20px;
     margin-bottom: 100px;
+  
+    margin-top: 30px;
+    position: relative
 }
 /* h3{
     height: 1px;
@@ -135,8 +132,7 @@ textarea{
     background-color: #75c5d3;
 }
 
-
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 768px) {
     .mainsection .content p {
         text-align: center;
     }
@@ -144,9 +140,7 @@ textarea{
     .mainsection .content {
         padding: 1em;
     }
-}
-
-@media screen and (max-width: 768px) {
+    
     .navbar-brand {
         text-align: center;
         width: 100%;
@@ -172,6 +166,3 @@ textarea{
 }
 
 
-@media screen and (max-width: 980px) {
-    
-}

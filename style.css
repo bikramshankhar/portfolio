@@ -1,0 +1,171 @@
+body {
+    background-color: rgb(0, 0, 0);
+    background-image: url(http://www.zingerbugimages.com/backgrounds/indigo_textured_rock_seamless_pattern.jpg);
+    background-position: top left;
+    /* background-repeat:repeat;
+    background-attachment:fixed; */
+}
+
+.navbar-brand {
+    background-color: #2a7886;
+    padding: 20px;
+    margin: 0px;
+    font-size: 30px;
+    color: #ffffff !important;
+    text-transform: uppercase;
+}
+
+.navbar {
+    padding: 0px;
+}
+
+.nav-link {
+    color: black;
+    border-left: 1px gray solid;
+    line-height: 3px;
+    font-size: 20px;
+    text-align: center;
+
+}
+.img{
+    width: 300px;
+}
+
+.mainsection {
+    background-color: white;
+    padding-top: 30px;
+    margin-top: 30px;
+    position: relative;
+}
+
+.mainsection h2 {
+    color: #2a7886;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    border-top: 10px solid #2a7886;
+    background-color: rgb(94, 69, 69);
+    text-align: center;
+
+
+}
+
+.nav-link:first-child {
+    border-left: none;
+}
+
+
+/* portfolio page */
+
+.portfolio {
+    margin-top: 2em;
+   
+}
+
+.portfolio h2{
+    font-weight: 700;
+    text-transform: uppercase;
+    color:#2a7886
+}
+
+
+.portfolio .portfolioIMG1 h3, .portfolio .portfolioIMG2 h3, .portfolio .portfolioIMG3 h3, .portfolio .portfolioIMG4 h3 {
+    padding: 3em 0;
+}
+.portfolio .portfolioIMG1 {
+background-image:url( portfolioimg1.jpg);
+}
+.portfolio .portfolioIMG2 {
+background-image:url(portfolioimg2);
+}
+.portfolio .portfolioIMG3 {
+background-image:url(portfolio3);
+}
+.portfolio .portfolioIMG4 {
+background-image: url(portfolioimg4);
+}
+
+/* contact page */
+/* contact page */
+
+.container{
+    margin-top: 40px;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+.contact{
+    color:#2a7886; 
+}
+
+.field{
+    width: 100%;
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: 1px solid gray;
+    background-color: white;
+    font-size: 1.1rem;
+    margin-bottom: 22px;
+}
+textarea{
+    width: 300px;
+    height: 150px;
+}
+.area{
+    min-height: 400px;
+}
+.btn{
+    background-color: #2a7886;
+}
+.btn:hover{
+    background-color: #75c5d3;
+}
+
+
+@media screen and (max-width: 640px) {
+    .mainsection .content p {
+        text-align: center;
+    }
+    
+    .mainsection .content {
+        padding: 1em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-brand {
+        text-align: center;
+        width: 100%;
+        color: white;
+    }
+
+    .form-inline {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 20px 0 20px 0;
+
+    }
+
+    .container {
+        padding-bottom: 100px;
+    }
+    
+    .mainsection .content p {
+    text-align: left;
+}
+
+}
+
+
+@media screen and (max-width: 980px) {
+    
+}

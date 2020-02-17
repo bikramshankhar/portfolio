@@ -14,6 +14,11 @@ body {
     color: #ffffff !important;
     text-transform: uppercase;
 }
+.content{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+
+}
 
 .navbar {
     padding: 0px;
@@ -45,7 +50,8 @@ body {
     width: 100%;
     padding: 20px;
     border-top: 10px solid #2a7886;
-    background-color: rgb(94, 69, 69);
+    background-color: #333;
+    color: #fff;
     text-align: center;
 
 
@@ -72,21 +78,25 @@ body {
 
 .portfolio .portfolioIMG1 h3, .portfolio .portfolioIMG2 h3, .portfolio .portfolioIMG3 h3, .portfolio .portfolioIMG4 h3 {
     padding: 3em 0;
+    border: 1px solid #2a7886;
 }
+
+
 .portfolio .portfolioIMG1 {
 background-image:url( portfolioimg1.jpg);
 }
 .portfolio .portfolioIMG2 {
-background-image:url(portfolioimg2);
+background-image:url(portfolioimg2.jpg);
 }
 .portfolio .portfolioIMG3 {
-background-image:url(portfolio3);
+background-image:url(portfolio3.jpg);
 }
 .portfolio .portfolioIMG4 {
-background-image: url(portfolioimg4);
+background-image: url(portfolioimg4.jpg);
 }
 
-/* contact page */
+
+
 /* contact page */
 
 .container{
@@ -100,11 +110,7 @@ background-image: url(portfolioimg4);
     margin-top: 30px;
     position: relative
 }
-/* h3{
-    height: 1px;
-    width:250px;
-    background-color: red;
-} */
+
 .contact{
     color:#2a7886; 
 }
@@ -153,6 +159,13 @@ textarea{
         justify-content: center;
         margin: 20px 0 20px 0;
 
+    }
+    .img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+       
+    
     }
 
     .container {

@@ -82,16 +82,16 @@ body {
 
 
 .portfolio .portfolioIMG1 {
-background-image:url( portfolioimg1.jpg);
+background-image:url( ../images/portfolioimg1.jpg);
 }
 .portfolio .portfolioIMG2 {
-background-image:url(portfolioimg2.jpg);
+background-image:url(../images/portfolioimg2.jpg);
 }
 .portfolio .portfolioIMG3 {
-background-image:url(portfolio3.jpg);
+background-image:url(../images/portfolio3.jpg);
 }
 .portfolio .portfolioIMG4 {
-background-image: url(portfolioimg4.jpg);
+background-image: url(../images/portfolioimg4.jpg);
 }
 
 
@@ -158,9 +158,10 @@ textarea{
         margin: 20px 0 20px 0;
     }
     .img{
-        display: block;
-        margin-left: auto;
-        margin-right: auto; 
+            display: block;
+            margin-left: auto;
+            margin-right: auto; 
+
     }
     .container {
         padding-bottom: 100px;

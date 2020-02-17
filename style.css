@@ -1,9 +1,8 @@
 body {
-    background-color: rgb(0, 0, 0);
     background-image: url(http://www.zingerbugimages.com/backgrounds/indigo_textured_rock_seamless_pattern.jpg);
     background-position: top left;
-    /* background-repeat:repeat;
-    background-attachment:fixed; */
+    background-repeat:repeat;
+    background-attachment:fixed;
 }
 
 .navbar-brand {
@@ -40,7 +39,7 @@ body {
 .container h2 {
     color: #2a7886;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 700px;
 }
 
 .footer {
@@ -70,7 +69,7 @@ body {
 }
 
 .portfolio h2{
-    font-weight: 700;
+    font-weight: 700px;
     text-transform: uppercase;
     color:#2a7886
 }
@@ -152,29 +151,27 @@ textarea{
         width: 100%;
         color: white;
     }
-
     .form-inline {
         width: 100%;
         display: flex;
         justify-content: center;
         margin: 20px 0 20px 0;
-
     }
     .img{
         display: block;
         margin-left: auto;
-        margin-right: auto;
-       
-    
+        margin-right: auto; 
     }
-
     .container {
         padding-bottom: 100px;
     }
     
     .mainsection .content p {
     text-align: left;
-}
+    }
+    .footer{
+        text-align: center;
+    }
 
 }
 
